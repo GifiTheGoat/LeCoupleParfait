@@ -3,7 +3,7 @@
 /*******************************/
 .navbar-inverse { border-radius: 0; background:rgba(9,29,16, .8); border-bottom:1px solid rgba(255, 255, 255, 0.15); min-height:100px; padding-top:25px; margin-bottom:0;}
 .navbar-inverse *:focus { outline: 0; }
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 	.navbar-inverse {  background:rgba(9,29,16,.9); }
 }
 
@@ -85,7 +85,7 @@
 /*******************************/
 /*           Jumbotron         */
 /*******************************/
-.jumbotron { color: inherit; background-color: #90b19b; padding-top:30px; padding-bottom:30px; margin-bottom:0; }
+.jumbotron { color: inherit; background-color: #388D54; padding-top:30px; padding-bottom:30px; margin-bottom:0; }
 .container .jumbotron { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; padding-left:40px; padding-right:40px; }
 	.jumbotron p { font-size:inherit; }
 	.jumbotron h2, .jumbotron h3, .jumbotron h4, 

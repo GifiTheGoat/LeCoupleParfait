@@ -40,6 +40,7 @@ label { color: #777; }
 .text-muted { color:#888; }
 .breadcrumb { background:none; padding:0; margin:30px 0 0px 0; }
 ul.list-spaces li{ margin-bottom:10px; }
+ul.list-spaces2 li{ margin-bottom:10px; color:#E82A4F;}
 
 /* Helpers */
 .container-full { margin: 0 auto; width: 100%; }
@@ -59,6 +60,7 @@ img.pull-left { margin-right: 10px; }
 /* Sidebars */
 .sidebar { padding-top:36px; padding-bottom:30px; }
 	.sidebar .widget { margin-bottom:20px; }
+	.sidebar .widget2 { margin-bottom:20px; color: #E82A4F; }
 	.sidebar h1, .sidebar .h1, .sidebar h2, .sidebar .h2, .sidebar h3, .sidebar .h3 { margin-top:20px; } 
 
 /* Footer */

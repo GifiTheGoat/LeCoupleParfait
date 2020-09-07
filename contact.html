@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8"> 
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author"      content="Gifi & Titi">
@@ -25,7 +25,7 @@
 	<![endif]-->
 </head>
 
-<body <style = "background-color: ##d2d5d5">
+<body style = "background-color: ##d2d5d5">
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
 		<div class="container">
@@ -41,13 +41,12 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Souhaits<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="list.html">Liste de mariage</a></li>
-							<li><a href="pot.html">Cagnote voyage</a></li>
+							<li><a href="https://www.millemercismariage.com/titietgifi/liste.html">Liste de mariage</a></li>
+							<li><a href="https://www.millemercismariage.com/titietgifi/liste.html">Cagnotte voyage</a></li>
 						</ul>
 					</li>
 					<li><a href="infos.html">Infos</a></li>
 					<li class="active"><a href="#">Nous contacter</a></li>
-					<li><a class="btn" href="signin.html">S'identifer</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
@@ -69,40 +68,33 @@
 			<!-- Article main content -->
 			<article class="col-sm-9 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">Contact us</h1>
+					<h1 class="page-title">Nous contacter</h1>
 				</header>
 				
 				<p>
-					We’d love to hear from you. Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as I can. Please allow a couple days for me to respond.
+					Si vous le souhaitez, vous pouvez nous contacter directement par mail, par téléphone, par courier, par pigeons voyageurs...<br>
+					Sinon vous pouvez taper votre message directement ci dessous, pour des remarques, des questions, juste pour nous laisser un petit mot sympa. A vous de voir!
 				</p>
 				<br>
-					<form>
+					<form action="reponse_mot.php" method="post">
 						<div class="row">
 							<div class="col-sm-4">
-								<input class="form-control" type="text" placeholder="Name">
+								<input class="form-control" type="text" name="nom" placeholder="Nom Prénom" required>
 							</div>
 							<div class="col-sm-4">
-								<input class="form-control" type="text" placeholder="Email">
+								<input class="form-control" type="text" name="email" placeholder="Email" required>
 							</div>
 							<div class="col-sm-4">
-								<input class="form-control" type="text" placeholder="Phone">
+								<input class="form-control" type="text" name="tel" placeholder="Téléphone (facultatif)">
 							</div>
 						</div>
 						<br>
 						<div class="row">
 							<div class="col-sm-12">
-								<textarea placeholder="Type your message here..." class="form-control" rows="9"></textarea>
+								<textarea class="form-control" name="message" placeholder="Tapez votre message ici..."required class="form-control" rows="9"></textarea>
 							</div>
 						</div>
-						<br>
-						<div class="row">
-							<div class="col-sm-6">
-								<label class="checkbox"><input type="checkbox"> Sign up for newsletter</label>
-							</div>
-							<div class="col-sm-6 text-right">
-								<input class="btn btn-action" type="submit" value="Send message">
-							</div>
-						</div>
+						<p><br><button type ="submit" class="btn btn-default btn-lg" role="button" type ="submit">Envoyer</button></p>
 					</form>
 
 			</article>
@@ -112,13 +104,17 @@
 			<aside class="col-sm-3 sidebar sidebar-right">
 
 				<div class="widget">
-					<h4>Address</h4>
+					<h4>Adresse</h4>
 					<address>
-						2002 Holcombe Boulevard, Houston, TX 77030, USA
+						2 Av d'Argenteuil, 95870 Bezons.
 					</address>
-					<h4>Phone:</h4>
+					<h4>Téléphone Guillaume:</h4>
 					<address>
-						(713) 791-1414
+						06 85 65 43 52
+					</address>
+					<h4>Téléphone Eugénie:</h4>
+					<address>
+						06 41 99 95 73
 					</address>
 				</div>
 
@@ -127,12 +123,8 @@
 
 		</div>
 	</div>	<!-- /container -->
-	
-	<section class="container-full top-space">
-		<div id="map"></div>
-	</section>
 
-<footer id="footer" class="top-space">
+	<footer id="footer" class="top-space">
 
 		<div class="footer1">
 			<div class="container">
@@ -163,8 +155,8 @@
 					<div class="col-md-6 widget">
 						<h3 class="widget-title">Merci</h3>
 						<div class="widget-body">
-							<p>Vu que nous avons mi du temps à coder ce site internet, nous sommes vraiement ravis de savoir que vous avez lu toute la page jusqu'en bas!</p>
-							<p>Pour Vous remercier veuillez cliquer sur ce lien pour que nous sachions que vous faites parti de l'élite lectrice qui regarde tout le site en entier. Ne dites rien à personne, en fonction du nombre de cliques une surprise vous attendra le jour J.</p>
+							<p>Vu que nous avons mis du temps à coder ce site internet, nous sommes vraiment ravis de savoir que vous avez lu toute la page jusqu'en bas!</p>
+							<p>Pour vous remercier veuillez cliquer sur ce lien pour que nous sachions que vous faites partie de l'élite lectrice qui regarde tout le site en entier. Ne dites rien à personne, en fonction du nombre de clics une surprise vous attendra le jour J.</p>
 						</div>
 					</div>
 
@@ -179,12 +171,11 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="simplenav">
-								<a href="index.html">Acceuil</a> | 
+								<a href="#">Accueil</a> | 
 								<a href="about.html">A propos</a> |
-								<a href="list.html">Liste</a> |
-								<a href="infos.html">Inofrmations</a> |
-								<a href="#.html">Contact</a> |
-								<b><a href="signup.html">S'identifier</a></b>
+								<a href="https://www.millemercismariage.com/titietgifi/liste.html">Liste</a> |
+								<a href="infos.html">Informations</a> |
+								<a href="contact.html">Contact</a>
 							</p>
 						</div>
 					</div>
@@ -214,7 +205,5 @@
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
 	<script src="https://kit.fontawesome.com/0f5a41340a.js" crossorigin="anonymous"></script>
-	
-
 </body>
 </html>

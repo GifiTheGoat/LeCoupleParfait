@@ -28,7 +28,7 @@ function currentSlide(n) {
 
 function showSlides_manu(n) {
   var i_manu;
-  var slides_manu = document.getElementsByClassName("mySlides");
+  var slides_manu = document.getElementsByClassName("mySlides2");
   var dots = document.getElementsByClassName("dot");
   if (n > slides_manu.length) {slideIndex_manu = 1}
   if (n < 1) {slideIndex_manu = slides_manu.length}

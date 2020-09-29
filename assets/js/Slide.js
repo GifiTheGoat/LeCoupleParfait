@@ -12,9 +12,19 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 5 seconds
+  setTimeout(showSlides, 2000);  //Change image every 5 seconds
 }
 
+$("#slideshow1 > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow1 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow1');
+}, 3000);
 
 // Next/previous controls
 function plusSlides(n) {

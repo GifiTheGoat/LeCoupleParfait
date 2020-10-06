@@ -30,7 +30,7 @@
 	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="assets/images/logo_E_G.png" alt="Progressus HTML5 template"></a>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/EGrose.png" height="40px" alt="Progressus HTML5 template"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">

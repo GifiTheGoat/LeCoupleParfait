@@ -63,38 +63,41 @@
     
     <ol class="breadcrumb">
       <li><a href="index.html">Accueil</a></li>
-      <li class="active">Contact</li>
+      <li class="active">Réponse</li>
     </ol>
 
     <div class="row">
       
       <!-- Article main content -->
-      <article class="col-sm-9 maincontent">
+      <article class="container text-center">
         <header class="page-header">
-          <h1 class="page-title">Nous contacter</h1>
+          <h1 class="page-title">Réponse</h1>
         </header>
         
         <p>
-          Si vous le souhaitez, vous pouvez nous contacter directement par mail, par téléphone, par courier, par pigeons voyageurs...<br>
-          Sinon vous pouvez taper votre message directement ci dessous, pour des remarques, des questions, juste pour nous laisser un petit mot sympa. A vous de voir!
+          Merci de bien vouloir nous confirmer votre présence au mariage.
         </p>
         <br>
-          <form action="reponse_mot.php" method="post">
+          <form action="rsvp.php" method="post">
             <div class="row">
               <div class="col-sm-4">
-                <input class="form-control" type="text" name="nom" placeholder="Nom Prénom" required>
+                <p>Nom</p>
+                <input class="form-control" type="text" name="nom" placeholder="Moi" required>
               </div>
               <div class="col-sm-4">
-                <input class="form-control" type="text" name="email" placeholder="Email" required>
+                <p>Email</p>
+                <input class="form-control" type="text" name="mail" placeholder="moi@coucou.fr" required>
               </div>
               <div class="col-sm-4">
-                <input class="form-control" type="text" name="tel" placeholder="Téléphone (facultatif)">
+                <p>Accompagnants</p>
+                <input class="form-control" type="text" name="accompagnants" placeholder="Mémé, bébé, chéri...">
               </div>
             </div>
             <br>
             <div class="row">
               <div class="col-sm-12">
-                <textarea class="form-control" name="message" placeholder="Tapez votre message ici..."required class="form-control" rows="9"></textarea>
+                <p>Remarques</p>
+                <textarea class="form-control" name="message" placeholder="J'ai tellement hâte de vous voir!"required class="form-control" rows="9"></textarea>
               </div>
             </div>
             <p><br><button type ="submit" class="btn btn-default btn-lg" role="button" type ="submit">Envoyer</button></p>
@@ -102,27 +105,6 @@
 
       </article>
       <!-- /Article -->
-      
-      <!-- Sidebar -->
-      <aside class="col-sm-3 sidebar sidebar-right">
-
-        <div class="widget">
-          <h4>Adresse</h4>
-          <address>
-            2 Av d'Argenteuil, 95870 Bezons.
-          </address>
-          <h4>Téléphone Guillaume:</h4>
-          <address>
-            06 85 65 43 52
-          </address>
-          <h4>Téléphone Eugénie:</h4>
-          <address>
-            06 41 99 95 73
-          </address>
-        </div>
-
-      </aside>
-      <!-- /Sidebar -->
 
     </div>
   </div>  <!-- /container -->

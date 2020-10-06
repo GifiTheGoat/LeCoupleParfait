@@ -45,7 +45,7 @@
 <?php
 if(isset($_POST['email'])) {
     $email_to = "g.menou90+contact_mariage@gmail.com";
-    $email_subject = "Contact mariage";
+    $email_subject = "Reponse presence";
     $name = $_POST['nom']; // required
     $email_from = $_POST['mail']; // required
     $comewith = $_POST['accompagnants'];
@@ -56,7 +56,7 @@ if(isset($_POST['email'])) {
     return str_replace($bad,"",$string);
     }
 
-    $email_message = "Réponse de présence.\n\n";
+    $email_message = "Reponse de presence.\n\n";
     $email_message .= "Nom: ".clean_string($name)."\n";
     $email_message .= "Accompagnants: ".clean_string($comewith)."\n\n";
     $email_message .= "Message: ".clean_string($mess)."\n";

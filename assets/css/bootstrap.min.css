@@ -10,18 +10,21 @@
 #slideshowauto {
   margin: auto;
   position: relative;
-  width: auto;
-  height: 500px;
-  padding: 10px;
+  width: 400px;
+  height: 150px;
+  /*min-height:150px;
+  max-height:150px;
+  padding: 10px;*/
   /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);*/
 }
 
 #slideshowauto > div {
   position: absolute;
+  /*height: 250px;
   top: 10px;
   left: 10px;
   right: 10px;
-  bottom: 10px;
+  bottom: 10px;*/
 }
 
 * {box-sizing:border-box}
@@ -42,7 +45,7 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  /*top: 100px;*/
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -56,8 +59,18 @@
 
 /* Position the "next button" to the right */
 .next {
-  right: 230px;
+	position: relative;
+	left: 260px;
+  margin-top: -22px;
+  padding: 16px;
+  bottom: 125px;
+	
+  /*top: 1em;
+  right: 1%;*/
   border-radius: 3px 0 0 3px;
+}
+.prev {
+	bottom: 130px;
 }
 
 /* On hover, add a black background color with a little bit see-through */

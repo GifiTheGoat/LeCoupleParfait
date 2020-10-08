@@ -71,7 +71,7 @@ $mail_f = fopen('retour.txt', 'a+');
 fwrite ($mail_f, "New:\r");
 fwrite ($mail_f, $name);
 fwrite ($mail_f, "\r");
-fwrite ($mail_f, $comewith;
+fwrite ($mail_f, $comewith);
 fwrite ($mail_f, "\r");
 fwrite ($mail_f, $mess);
 fwrite ($mail_f, "\r");

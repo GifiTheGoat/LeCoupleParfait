@@ -67,6 +67,18 @@ $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 mail($email_to, $email_subject, $email_message, $headers);
+$mot_f = fopen('mots.txt', 'a+');
+fwrite ($mot_f, "New:\r");
+fwrite ($mot_f, $name);
+fwrite ($mot_f, "\r");
+fwrite ($mot_f, $email_from);
+fwrite ($mot_f, "\r");
+fwrite ($mot_f, $phone);
+fwrite ($mot_f, "\r");
+fwrite ($mot_f, $mess);
+fwrite ($mot_f, "\r");
+fwrite ($mot_f, "\r");
+fclose('mots.txt');
 ?>
   <!-- include your own success html here -->
 

@@ -47,8 +47,8 @@ if(isset($_POST['email'])) {
     $email_to = "g.menou90+contact_mariage@gmail.com";
     $email_subject = "Contact mariage";
     $name = $_POST['nom']; // required
-    $email_from = $_POST['email']; // required
-    $phone = $_POST['tel'];
+    $email_from = $_POST['mail']; // required
+    $comewith = $_POST['accompagnants'];
     $mess = $_POST['message'];
 
     function clean_string($string) {
@@ -56,10 +56,9 @@ if(isset($_POST['email'])) {
     return str_replace($bad,"",$string);
     }
 
-    $email_message = "Cette personne t'envoie un petit message.\n\n";
+    $email_message = "Réponse de présence.\n\n";
     $email_message .= "Nom: ".clean_string($name)."\n";
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Téléphone: ".clean_string($phone)."\n\n";
+    $email_message .= "Accompagnants: ".clean_string($comewith)."\n\n";
     $email_message .= "Message: ".clean_string($mess)."\n";
 
 // create email headers
@@ -67,11 +66,23 @@ $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 mail($email_to, $email_subject, $email_message, $headers);
+
+$mail_f = fopen('retour.txt', 'a+');
+fwrite ($mail_f, "New:\r");
+fwrite ($mail_f, $name);
+fwrite ($mail_f, "\r");
+fwrite ($mail_f, $comewith;
+fwrite ($mail_f, "\r");
+fwrite ($mail_f, $mess);
+fwrite ($mail_f, "\r");
+fwrite ($mail_f, $email_from);
+fwrite ($mail_f, "\r");
+fwrite ($mail_f, "\r");
+fclose('mail.txt');
 ?>
   <!-- include your own success html here -->
 
-  <div class="container text-center"><h2><br><br><br><br>Merci pour votre message, si vous attendez une réponse, nous vous l'enverrons au plus vite.
-  <br>En attendant on vous fait des bisous ;)<br><br></h2>
+  <div class="container text-center"><h2><br><br><br><br>Merci pour votre réponse, à très bientôt.</h2>
   <p><a class="btn btn-default btn-lg" role="button" href="index.html">Retour à la page d'acceuil</a></p></div>
 
 	<script src="assets/js/headroom.min.js"></script>

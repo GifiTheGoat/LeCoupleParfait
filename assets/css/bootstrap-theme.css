@@ -75,6 +75,11 @@
 	.btn-default:active,
 	.btn-default.active { color:#333; -webkit-box-shadow:inset 0px 0px 0px 3px #333; -moz-box-shadow:inset 0px 0px 0px 3px #333; box-shadow:inset 0px 0px 0px 3px #333; background: transparent; }
 	
+.btn-covid { text-shadow: none; background:transparent; color:rgba(220,220,220,.5); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(220,220,220,.5); -moz-box-shadow:inset 0px 0px 0px 3px rgba(220,220,220,.5); box-shadow:inset 0px 0px 0px 3px rgba(220,220,220,.5); }
+	.btn-covid:hover,
+	.btn-covid:focus { color:rgba(200,200,200,.8); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(200,200,200,.8); -moz-box-shadow:inset 0px 0px 0px 3px rgba(200,200,200,.8); box-shadow:inset 0px 0px 0px 3px rgba(200,200,200,.8); background: transparent; }
+	.btn-covid:active,
+	.btn-covid.active { color:#333; -webkit-box-shadow:inset 0px 0px 0px 3px #333; -moz-box-shadow:inset 0px 0px 0px 3px #333; box-shadow:inset 0px 0px 0px 3px #333; background: transparent; }
 .btn-action,
 .btn-primary { color:#FFEFD7; background-image: -webkit-linear-gradient(top, #994C6A 0%, #d6b7c3 100%); background-image: linear-gradient(to bottom, #FF9CC3 0%, #FF80B2 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffFF9B22', endColorstr='#ffFF8C00', GradientType=0); filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); background-repeat: repeat-x; border:0 none; }
 	.btn-action:hover,

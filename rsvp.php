@@ -23,7 +23,6 @@
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
-	<script type="text/javascript" src="compteur.php"></script>
 </head>
 <body class="home" <style = "background-color: ##d2d5d5">
 	<!-- Fixed navbar -->

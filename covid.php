@@ -23,7 +23,7 @@
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
-	<scirpt type="text/javascript" src="insanity.htlm" <!--Bien vérifier cela-->></scirpt>
+	<scirpt type="text/javascript" src="insanity.html" <!--Bien vérifier cela-->></scirpt>
 </head>
 <body class="home" <style = "background-color: ##d2d5d5">
 	<!-- Fixed navbar -->

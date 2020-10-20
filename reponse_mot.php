@@ -84,7 +84,7 @@ fclose('mots.txt');
 
   <div class="container text-center"><h2><br><br><br><br>Merci pour votre message, si vous attendez une réponse, nous vous l'enverrons au plus vite.
   <br>En attendant on vous fait des bisous ;)<br><br></h2>
-  <p><a class="btn btn-default btn-lg" role="button" href="index.html">Retour à la page d'acceuil</a></p></div>
+  <p><a class="btn btn-default btn-lg" role="button" href="index.html">Retour à la page d'accueil</a></p></div>
   <p style="color:white">USER : A l'issue de noirs combats<br>On l'a scellée maintes fois<br>Elle vous remplie d'émoi<br>lorsqu'on la reçoit (8 lettres, la première sera en majuscule)</p>
 
 	<script src="assets/js/headroom.min.js"></script>

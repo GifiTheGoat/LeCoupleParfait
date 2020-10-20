@@ -79,7 +79,7 @@ fclose('covid.txt');
   <!-- include your own success html here -->
 
   <div class="container text-center"><h2><br><br><br><br>Vous serez tenus informés si la fête ne peut avoir lieu. Merci pour votre prise de contact, à bientôt</h2>
-  <p><a class="btn btn-default btn-lg" role="button" href="index.html">Retour à la page d'acceuil</a></p></div>
+  <p><a class="btn btn-default btn-lg" role="button" href="index.html">Retour à la page d'accueil</a></p></div>
 
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>

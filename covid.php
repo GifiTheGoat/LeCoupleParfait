@@ -47,7 +47,7 @@ if(isset($_POST['email'])) {
     $email_to = "g.menou90+contact_mariage@gmail.com";
     $email_subject = "Contact covid";
     $name = $_POST['nom']; // required
-    $email_from = $_POST['mail']; // required
+    $email_from = $_POST['email']; // required
     $mess = $_POST['message'];
 
     function clean_string($string) {

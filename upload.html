@@ -24,7 +24,34 @@
   <script src="assets/js/respond.min.js"></script>
   <![endif]-->
 </head>
-  <body>
+<body style = "background-color: ##d2d5d5">
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top headroom" >
+    <div class="container">
+      <div class="navbar-header">
+        <!-- Button for smallest screens -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="assets/images/EGrose.png" height="40px" alt="Progressus HTML5 template"></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="index.html">Accueil</a></li>
+          <li class="active"><a href="#">Un peu plus sur nous</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Souhaits<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="list.html">Liste de mariage</a></li>
+              <li><a href="pot.html">Cagnotte voyage</a></li>
+            </ul>
+          </li>
+          <li><a href="infos.html">Infos</a></li>
+          <li><a href="contact.html">Nous contacter</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div> 
+  <!-- /.navbar -->
  <?php
       if( !empty($message) ) 
       {
@@ -39,7 +66,7 @@
         <legend>Formulaire</legend>
           <p>
             <label for="fichier_a_uploader" title="Recherchez le fichier à uploader !">Envoyer le fichier :</label>
-            <input type="hidden" name="MAX_FILE_SIZE" value="<?php echo MAX_SIZE; ?>" />
+            <!--<input type="hidden" name="MAX_FILE_SIZE" value="<?php echo MAX_SIZE; ?>" />-->
             <input name="fichier" type="file" id="fichier_a_uploader" />
             <input type="submit" name="submit" value="Uploader" />
           </p>

@@ -24,7 +24,7 @@
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body class="home" style = "background-color: ##d2d5d5">
+<body class="home" style = "background-color: #d2d5d5">
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
 		<div class="container">

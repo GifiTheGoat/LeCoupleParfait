@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport"    content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author"      content="Gifi & Titi">
-  
-  <title>Guillaume et Eugénie</title>
-
-  <link rel="shortcut icon" href="assets/images/E_G.png">
-  
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all.css">
-
-  <!-- Custom styles for our template -->
-  <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
-  <link rel="stylesheet" href="assets/css/main.css">
-
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-  <script src="assets/js/html5shiv.js"></script>
-  <script src="assets/js/respond.min.js"></script>
-  <![endif]-->
-</head>
 <body class="home" style = "background-color: ##d2d5d5">
   <!-- Fixed navbar -->
   <div class="navbar navbar-inverse navbar-fixed-top headroom" >
